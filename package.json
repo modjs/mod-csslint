@@ -1,0 +1,36 @@
+{
+    "name": "mod-csslint",
+    "description": "Validate css files with csslint",
+    "version": "0.1.0",
+    "homepage": "https://github.com/modjs/csslint",
+    "author": {
+        "name": "yuanyan",
+        "url": "https://github.com/yuanyan"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/modjs/csslint.git"
+    },
+    "bugs": {
+        "url": "https://github.com/modjs/csslint/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/modjs/csslint/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "bin": "",
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "scripts": {
+        "test": ""
+    },
+    "dependencies": {
+	    "csslint": "*"
+    },
+    "devDependencies": {
+    },
+    "keywords": []
+}

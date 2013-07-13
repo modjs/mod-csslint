@@ -1,0 +1,13 @@
+// A sample Modfile
+// More info at https://github.com/modulejs/modjs/
+
+module.exports = {
+    plugins: {
+        "mod-csslint": "../index.js"
+    },
+    tasks: {
+        "mod-csslint": {
+            src: "test.css"
+        }
+    }
+};
